@@ -1,0 +1,50 @@
+/* Big Heading */
+h1 {
+    font-size: 3em;
+    text-align: center;
+    margin-top: 20px;
+    color: #faedcd;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #003049;
+}
+/* Buttons */
+.container {
+    display: grids;
+    /* width: 50%; */
+    margin-top: 6%;
+    justify-self: center;
+    justify-content: center;
+    aspect-ratio: 1/1;
+}
+.btn {
+    width: 40%;
+    width: 40%;
+    height: 150px;
+    aspect-ratio: 1/1;
+    margin: 20px;
+    color: white;
+    font-size: 1.5em;
+    text-align: center;
+    line-height: 150px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.2s, background-color 0.2s;
+}
+
+.one { background-color: #2a9d8f; }
+.two { background-color: #c1121f; }
+.three { background-color: #344e41; }
+.four { background-color: #ee9b00; }
+
+.btn:active {
+    transform: scale(1.1);
+    background-color: #000000;
+}
+.active {
+    transform: scale(1.1);
+    background-color: #000000;
+}
